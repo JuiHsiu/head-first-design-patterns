@@ -19,4 +19,4 @@
 * Command可以支援復原功能，做法是實作一個undo()方法，來將物件復原至execute()方法上一次被呼叫之前的狀態。
 * MacroCommands是命令模式的擴展版本，可讓你呼叫多個command。類似地，MacroCommands可以輕鬆地支援undo()。
 * 在實務上，通常我們不會使用「聰明的」Command物件來自行實作請求，而是將請求委託給receiver。
-* 命令模式可以用來實作紀錄和交易系統。
+* 命令模式可以用來實作紀錄(logging)和交易系統(transaction)。
